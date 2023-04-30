@@ -31,6 +31,7 @@ spec:
     syncOptions:
     - CreateNamespace=true
     - Replace=true
+    - Validate=false
     retry:
       limit: 1
       backoff:
