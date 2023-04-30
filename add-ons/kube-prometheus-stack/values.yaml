@@ -19,7 +19,7 @@ kube-prometheus-stack:
     enabled: false
 
   prometheus:
-  annotations:
+    annotations:
       argocd.argoproj.io/skip-health-check: 'true'
     prometheusSpec:
       ## Prometheus StorageSpec for persistent data on AWS EBS
