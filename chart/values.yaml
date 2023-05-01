@@ -170,7 +170,7 @@ ondat:
 
 # Prometheus Values
 prometheus:
-  enable: true
+  enable: false
   createNamespace: true
   serviceAccountName:
   roleArn:
